@@ -1,0 +1,11 @@
+# Visual Studio: lokala inställningar och cache.
+# Filerna låses av Visual Studio medan en lösning är öppen, och då går det inte att commita dem.
+.vs/
+
+# Byggresultat: skapas på nytt varje gång du bygger eller kör.
+bin/
+obj/
+
+# Användarspecifika filer
+*.user
+*.suo
